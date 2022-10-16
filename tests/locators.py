@@ -35,9 +35,6 @@ sauces_section = "//span[text() = 'Соусы']"  # раздел Соусы
 
 fillings_section = "//span[text() = 'Начинки']"  # раздел Начинки
 
-bread = "//p[text() = 'Флюоресцентная булка R2-D3']"  # название булки
+current_tab = "//*[contains(@class, 'tab_tab_type_current')]"  # текущая вкладка
 
-sauce = "//p[text() = 'Соус Spicy-X']"  # название соуса
-
-filling = "//p[text() = 'Мясо бессмертных моллюсков Protostomia']"  # название начинки
 
