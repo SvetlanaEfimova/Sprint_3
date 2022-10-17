@@ -19,6 +19,6 @@ def test_registration_incorrect_password_registration_error():
     driver.find_element(By.XPATH, email_registration).send_keys(f'{random_str(6)}@ya.ru')
     driver.find_element(By.XPATH, password_registration).send_keys(random_str(4))
     driver.find_element(By.XPATH, register_button).click()
-    assert invalid_password_error is not None
+    assert driver.find_element(By.XPATH, invalid_password_error).is_displayed()
 
     driver.quit()

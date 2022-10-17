@@ -6,7 +6,7 @@ password_registration = "//label[text()='Пароль']/following-sibling::input
 
 register_button = "//*[@id='root']/div/main/div/form/button[text() = 'Зарегистрироваться']"  # кнопка регистрации
 
-invalid_password_error = "//*[@id='root']/div/main/div/form/fieldset[3]/div/p[text()]"  #
+invalid_password_error = "//p[text()='Некорректный пароль']"  #
 # ошибка некорректного пароля
 login_button = "//*[@id='root']/div/main/section[2]/div/button[text() = 'Войти в аккаунт']"  # кнопка 'Войти в
 # аккаунт' на главной странице
