@@ -37,4 +37,4 @@ fillings_section = "//span[text() = 'Начинки']"  # раздел Начи�
 
 current_tab = "//*[contains(@class, 'tab_tab_type_current')]"  # текущая вкладка
 
-
+button_for_placing_an_order = "//button[text() = 'Оформить заказ']"  # кнопка для оформления заказа
